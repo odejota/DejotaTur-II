@@ -1,0 +1,4 @@
+const clickBotao = (e) => {
+    e.preventDefault()
+    alert('Contato gravado com sucesso!')
+}

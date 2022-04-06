@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.719);
+    background-blend-mode: soft-light;
+}
+
+.card-cover h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.material-icons.md-18 { 
+    font-size: 18px; 
+}
+
+.txtriscado{
+    text-decoration: line-through;
+}
+
+.btncolor {
+    background-color: #03BFB5;
+    color: #F2F2F2;
+    text-shadow: none;
+}
+
+.promo{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #03BFB5;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.destsection {
+    box-shadow: 0px 4px 15px 7px rgba(0, 0, 0, 0.11);
+    padding-bottom: 5vh;
+    position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-self: center !important;
+}
+
+.destsection h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.destsection h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    padding-top: 5vh;
+}
+
+.btn-danger, .btn-warning {
+    display: flex;
+    align-content: center;
+}

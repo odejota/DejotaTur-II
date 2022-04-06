@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+nav li a {
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.300);
+}
+
+nav li a:hover{
+    color: #03BFB5 !important;
+    text-shadow: rgba(0, 0, 0, 0.719) !important;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbarcolor {
+    background-color: rgba(179, 179, 179, 0.910);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 5%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav{
+    flex-direction: initial !important;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-collapse ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.navbar-collapse li a {
+    margin-right: 3vh;
+}
+
+.navbar-collapse form {
+    justify-content: space-evenly;
+}
+
+.navbar-toggler{
+    display: flex;
+    justify-content: end;
+}
+
+.btnentrar{
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 9px 27px 12px;
+    color: #F2F2F2;
+    background: rgba(0,0,0,0.1);
+    -webkit-transition: all 180ms;
+    transition: all 180ms;
+    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 5%), inset 0 0 0 1px #F2F2F2;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 5%), inset 0 0 0 1px #F2F2F2;
+}
+
+.btncolor {
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 9px 27px 12px;
+    background-color: #03BFB5;
+    color: #F2F2F2;
+    -webkit-transition: all 180ms;
+    transition: all 180ms;
+    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 5%), inset 0 0 0 1px #F2F2F2;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+}
+
+.btncolor:hover{
+    box-shadow: 0px 10px 40px 1px rgba(0, 247, 255, 0.425);
+    color: #F2F2F2;
+}
+
+.bi-grid-fill{
+    color: #F2F2F2;
+    font-size: 30px;
+}
+
+.bi-arrow-right-square-fill{
+    box-shadow: 0px 10px 40px 1px rgba(0, 247, 255, 0.425);
+    color: #03BFB5;
+}

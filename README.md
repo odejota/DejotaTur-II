@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="70px" src="">
+  <img width="20%" src="https://github.com/odejota/DejotaTur-II/blob/main/Front-end/dejotatur/src/Img/DejotaTur-Logo.svg">
 </div>
 <br/>
 DejotaTur é um projeto de site de agência de viagens, realizado como atividade prática do módulo 5, sendo refatorado de atividades anteriores, durante os estudos na [Recode Pro](https://recodepro.org.br/).
